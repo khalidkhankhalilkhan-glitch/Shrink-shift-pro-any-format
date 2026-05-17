@@ -1,0 +1,8 @@
+{
+  "name": "ShrinkShift Pro",
+  "description": "Powerful 100% offline image compression tool. Convert images to specific KB sizes directly in your browser. No AI, No Server, No Data Privacy Risks. Total 50MB batch limit.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

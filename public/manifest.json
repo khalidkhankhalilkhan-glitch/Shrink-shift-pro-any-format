@@ -1,0 +1,52 @@
+{
+  "id": "com.shrinkshift.app",
+  "name": "ShrinkShift Pro",
+  "short_name": "ShrinkShift",
+  "description": "Lightning-fast Bulk Image Compressor. 100% Local, Fast and Secure.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#3b82f6",
+  "orientation": "any",
+  "categories": ["utilities", "productivity", "photo"],
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/2991/2991148.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/2991/2991148.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "https://images.unsplash.com/photo-1542831371-29b0f74f9713?auto=format&fit=crop&q=80&w=1000",
+      "sizes": "1000x600",
+      "type": "image/jpeg",
+      "form_factor": "wide",
+      "label": "Bulk Image Processing Dashboard"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=1000",
+      "sizes": "1000x600",
+      "type": "image/jpeg",
+      "form_factor": "narrow",
+      "label": "Mobile Compressor View"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Quick Compress",
+      "short_name": "Compress",
+      "url": "/",
+      "icons": [{ "src": "https://cdn-icons-png.flaticon.com/512/2991/2991148.png", "sizes": "192x192" }]
+    }
+  ],
+  "prefer_related_applications": false
+}
